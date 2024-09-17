@@ -6,4 +6,5 @@ def check_even_odd(n):
     # Write you code here
 
 
-def multiplication_table(n):
+def compare_numbers(num1, num2):
+    # Write you code here
