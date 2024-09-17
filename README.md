@@ -33,9 +33,13 @@ Checks if the number is even or odd.
 
  	Input: 
 	Enter a number: 5
-
   	Output:
 	Odd
+
+  	Input: 
+	Enter a number: 8
+  	Output:
+	Even
 
 ---
 
@@ -49,7 +53,9 @@ This is a simple Python program that takes two numbers as input and determines w
 
 	Input: 5 and 3
 	Output: 5
+ 
 	Input: 2 and 7
 	Output: 7
+ 
 	Input: 4 and 4
 	Output: Equal
