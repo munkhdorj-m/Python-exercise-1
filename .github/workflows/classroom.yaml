@@ -6,7 +6,7 @@
           # Do not run workflow unless these files were modified
           - 'assignment.py' 
           - 'test_assignment.py' 
-
+    permissions: write-all
     jobs:
       build:
         name: Autograding
