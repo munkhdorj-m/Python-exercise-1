@@ -1,5 +1,5 @@
 def perform_operations(a, b):
-    # Write you code here
+    # Write your code here
 
     
 # Example Output:
@@ -11,7 +11,7 @@ def perform_operations(a, b):
 # Quotient: 2.75
 
 def check_even_odd(n):
-    # Write you code here
+    # Write your code here
 
     
 # Example Output:
@@ -23,7 +23,7 @@ def check_even_odd(n):
 # 5 Odd
 
 def compare_numbers(num1, num2):
-    # Write you code here
+    # Write your code here
 
 
 # Example Output:
