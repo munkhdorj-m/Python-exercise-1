@@ -2,7 +2,7 @@
 
 ---
 
-## Exercise 1: Basic Variables, Operations, and Functions
+## Exercise 1
 
 **Problem:**
 Write a Python program that asks the user to input two numbers and performs the following operations:
@@ -23,7 +23,7 @@ Write a Python program that asks the user to input two numbers and performs the 
 
 ---
 
-## Exercise 2: Conditional Statements and Loops
+## Exercise 2
 
 **Problem:**
 
@@ -39,7 +39,7 @@ Checks if the number is even or odd.
 
 ---
 
-## Exercise 3: Compare Two Numbers
+## Exercise 3
 
 **Problem:**
 This is a simple Python program that takes two numbers as input and determines which one is greater or if they are equal.
