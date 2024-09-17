@@ -2,7 +2,7 @@ import pytest
 import numpy as np
 from assignment import perform_operations, check_even_odd, compare_numbers
 
-def test1:
+def test1():
     # Test for different pairs of numbers
     assert perform_operations(10, 2) == (12, 8, 20, 5)
     assert perform_operations(5, 5) == (10, 0, 25, 1)
