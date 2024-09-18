@@ -6,11 +6,7 @@
 
 **Problem:**
 
-Ask the user to input two numbers and performs the following operations:
-- Sum
-- Difference
-- Product
-- Quotient
+Ask the user to input two numbers and performs the following operations +,-,*,/.
 
 **Example:**
 
