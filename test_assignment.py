@@ -1,6 +1,6 @@
 import pytest
 import numpy as np
-from assignment import perform_operations, check_even_odd, compare_numbers
+from assignment import greet, perform_operations, check_even_odd, compare_numbers, multiply_digits 
 
 
 def test1(capsys):
@@ -27,4 +27,4 @@ def test4(num1, num2, expected):
 
 @pytest.mark.parametrize("input, expected", [(253, 30), (123, 6), (999, 729), (321, 6)])
 def test5(input, expected):
-    assert check_even_odd(input) == expected
+    assert multiply_digits(input) == expected
