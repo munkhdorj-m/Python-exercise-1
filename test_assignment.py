@@ -14,9 +14,9 @@ def test2(input, expected):
     assert check_even_odd(input) == expected
 
 @pytest.mark.parametrize("num1, num2, expected", [
-    (5, 3, "5 is greater than 3"),
-    (2, 7, "7 is greater than 2"),
-    (4, 4, "Both numbers are equal")
+    (5, 3, 5),
+    (2, 7, 7),
+    (4, 4, "Equal")
 ])
 def test3(num1, num2, expected):
     # Test for comparing two numbers
