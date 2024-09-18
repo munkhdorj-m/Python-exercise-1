@@ -49,7 +49,7 @@ Checks if the number is even or odd.
 This is a simple Python program that takes two numbers as input and determines which one is greater or if they are equal.
 
  
-**Example Output:**
+**Example**
 
 	Input: 5 and 3
 	Output: 5
