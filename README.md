@@ -6,21 +6,32 @@
 
 **Problem:**
 
-Ask the user to input two numbers and perform the following operations +,-,*,/  
+Print "Hello, World!"
 
 **Example:**
 
-	Input:
-	Enter the first number: 5.5
-	Enter the second number: 2
+	Output:
+	Hello, World!
 
+---
+
+## Exercise 2
+
+**Problem:**
+
+Perform the following operations on two numbers +,-,*,/  
+
+**Example:**
+
+	Input: 
+ 	5.5 2
 	Output:
 	7.5 3.5 11.0 2.75
 
 
 ---
 
-## Exercise 2
+## Exercise 3
 
 **Problem:**
 
@@ -29,30 +40,51 @@ Checks if the number is even or odd.
 **Example**
 
  	Input: 
-	Enter a number: 5
+	5
   	Output:
 	Odd
 
   	Input: 
-	Enter a number: 8
+	8
   	Output:
 	Even
 
 ---
 
-## Exercise 3
+## Exercise 4
 
 **Problem:**
 
-Ask for two numbers as input and determine which one is greater or if they are equal.
+From two numbers determine which one is greater or if they are equal.
 
 **Example**
 
-	Input: 5 and 3
+	Input: 5 3
 	Output: 5
  
-	Input: 2 and 7
+	Input: 2 7
 	Output: 7
  
-	Input: 4 and 4
+	Input: 4 4
 	Output: Equal
+
+
+---
+
+## Exercise 5
+
+**Problem:**
+
+Find the multiplication of the digits of the given 3-digit number
+
+**Example**
+
+	Input: 531
+	Output: 15
+ 
+	Input: 123
+	Output: 6
+ 
+	Input: 885
+	Output: 320
+ 
