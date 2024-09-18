@@ -1,4 +1,4 @@
-# Python Exercises - GitHub Classroom
+# Python intro exercises
 
 ---
 
