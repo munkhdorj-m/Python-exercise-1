@@ -6,7 +6,7 @@
 
 **Problem:**
 
-Ask the user to input two numbers and performs the following operations +,-,*,/.
+Ask the user to input two numbers and perform the following operations +,-,*,/  
 
 **Example:**
 
