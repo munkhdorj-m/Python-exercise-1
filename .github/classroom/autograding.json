@@ -12,7 +12,6 @@
       },
       {
         "name": "exercise2",
-        "setup": "sudo -H pip3 install -r requirements.txt",
         "run": "pytest test_assignment.py::test2",
         "input": "",
         "output": "",
@@ -22,7 +21,6 @@
       },
       {
         "name": "exercise3",
-        "setup": "sudo -H pip3 install -r requirements.txt",
         "run": "pytest test_assignment.py::test3",
         "input": "",
         "output": "",
@@ -32,7 +30,6 @@
       },
       {
         "name": "exercise4",
-        "setup": "sudo -H pip3 install -r requirements.txt",
         "run": "pytest test_assignment.py::test4",
         "input": "",
         "output": "",
@@ -42,7 +39,6 @@
       },
       {
         "name": "exercise5",
-        "setup": "sudo -H pip3 install -r requirements.txt",
         "run": "pytest test_assignment.py::test5",
         "input": "",
         "output": "",
