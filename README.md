@@ -5,7 +5,8 @@
 ## Exercise 1
 
 **Problem:**
-Write a Python program that asks the user to input two numbers and performs the following operations:
+
+Ask the user to input two numbers and performs the following operations:
 - Sum
 - Difference
 - Product
@@ -46,9 +47,9 @@ Checks if the number is even or odd.
 ## Exercise 3
 
 **Problem:**
-This is a simple Python program that takes two numbers as input and determines which one is greater or if they are equal.
 
- 
+Ask for two numbers as input and determine which one is greater or if they are equal.
+
 **Example**
 
 	Input: 5 and 3
