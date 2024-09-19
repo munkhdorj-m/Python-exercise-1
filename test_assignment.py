@@ -6,7 +6,7 @@ from assignment import greet, perform_operations, check_even_odd, compare_number
 def test1(capsys):
     greet()
     captured = capsys.readouterr()
-    assert captured.out.strip().lower() == "hello, world"
+    assert captured.out.strip().lower() == "hello, world!"
     
 def test2():
     assert perform_operations(10, 2) == (12, 8, 20, 5)
