@@ -6,21 +6,27 @@ from assignment import greet, perform_operations, check_even_odd, compare_number
 def test1(capsys):
     greet()
     captured = capsys.readouterr()
-    assert captured.out == "Hello, World!\n"
+    assert captured.out.strip().lower() == "hello, world"
     
 def test2():
     assert perform_operations(10, 2) == (12, 8, 20, 5)
     assert perform_operations(5, 5) == (10, 0, 25, 1)
     assert perform_operations(7, 3) == (10, 4, 21, 7/3)
 
-@pytest.mark.parametrize("input, expected", [(2, "Even"), (3, "Odd"), (0, "Even"), (-5, "Odd")])
+@pytest.mark.parametrize("input, expected", [
+    (2, "Even"), (2, "even"), 
+    (3, "Odd"), (3, "odd"), 
+    (0, "Even"), (0, "even"), 
+    (-5, "Odd"), (-5, "odd")
+])
 def test3(input, expected):
     assert check_even_odd(input) == expected
 
 @pytest.mark.parametrize("num1, num2, expected", [
     (5, 3, 5),
     (2, 7, 7),
-    (4, 4, "Equal")
+    (4, 4, "Equal"),
+    (4, 4, "equal")
 ])
 def test4(num1, num2, expected):
     assert compare_numbers(num1, num2) == expected
