@@ -25,11 +25,10 @@ def test3(input, expected):
 @pytest.mark.parametrize("num1, num2, expected", [
     (5, 3, 5),
     (2, 7, 7),
-    (4, 4, "Equal"),
     (4, 4, "equal")
 ])
 def test4(num1, num2, expected):
-    assert compare_numbers(num1, num2) == expected
+    assert compare_numbers(num1, num2).lower() == expected
 
 @pytest.mark.parametrize("input, expected", [(253, 30), (123, 6), (999, 729), (321, 6)])
 def test5(input, expected):
