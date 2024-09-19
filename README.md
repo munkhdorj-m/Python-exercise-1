@@ -1,5 +1,7 @@
 # Python intro exercises
 
+How to write functions: https://www.programiz.com/python-programming/function
+
 ---
 
 ## Exercise 1
