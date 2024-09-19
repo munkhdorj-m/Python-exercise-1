@@ -14,13 +14,13 @@ def test2():
     assert perform_operations(7, 3) == (10, 4, 21, 7/3)
 
 @pytest.mark.parametrize("input, expected", [
-    (2, "Even"), (2, "even"), 
-    (3, "Odd"), (3, "odd"), 
-    (0, "Even"), (0, "even"), 
-    (-5, "Odd"), (-5, "odd")
+    (2, "even"),
+    (3, "odd"),
+    (0, "even"),
+    (-5, "odd")
 ])
 def test3(input, expected):
-    assert check_even_odd(input) == expected
+    assert check_even_odd(input).lower() == expected
 
 @pytest.mark.parametrize("num1, num2, expected", [
     (5, 3, 5),
