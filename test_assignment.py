@@ -30,7 +30,7 @@ def test3(input, expected):
 def test4(num1, num2, expected):
     result = compare_numbers(num1, num2)
     if isinstance(result, str):
-        assert result.lower() == expected.lower()
+        assert result.lower() == expected
     else:
         assert result == expected
 
