@@ -1,5 +1,4 @@
 import pytest
-import numpy as np
 from assignment import greet, perform_operations, check_even_odd, compare_numbers, multiply_digits 
 
 
